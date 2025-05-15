@@ -4,7 +4,7 @@
 
 ## Содержимое
 
-- `typescript-react.json` - Правила для TypeScript и React в NextJS
+- `typescript-react.mdc` - Правила для TypeScript и React в NextJS
 
 ## Как использовать
 
@@ -13,7 +13,7 @@
 ```bash
 # В корневой директории вашего проекта
 mkdir -p .cursor
-git submodule add https://github.com/your-username/cursor_rules_nextjs_rules .cursor/rules
+git submodule add https://github.com/Oreen/up-im-frontend-cursor-rules .cursor/rules
 ```
 
 ### Обновление правил
