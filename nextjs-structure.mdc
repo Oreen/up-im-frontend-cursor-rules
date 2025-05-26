@@ -1,0 +1,27 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+# Структура проекта
+- Корневая директория:
+	- [package.json](mdc:backend/backend/package.json), [package-lock.json](mdc:backend/backend/package-lock.json)
+	- [tsconfig.json](mdc:backend/backend/tsconfig.json), [next.config.js](mdc:backend/backend/next.config.js)
+	- [next-env.d.ts](mdc:backend/backend/next-env.d.ts), [env.d.ts.ts](mdc:backend/backend/env.d.ts.ts)
+	- [.eslintrc.json](mdc:backend/backend/.eslintrc.json)
+- Папка [src/](mdc:backend/backend/src):
+	- [src/app/](mdc:backend/backend/src/app): директория Next.js App Router с маршрутами и
+	  серверными/клиентскими компонентами
+	- [src/components/](mdc:backend/backend/src/components): переиспользуемые UI-компоненты с
+	  модулями SCSS
+	- [src/ui/](mdc:backend/backend/src/ui): базовые утилитарные UI-компоненты с
+	  модулями SCSS
+	- [src/styles/](mdc:backend/backend/src/styles): глобальные SCSS-файлы
+	- [src/fonts/](mdc:backend/backend/src/fonts): шрифты проекта
+	- [src/interfaces/](mdc:backend/backend/src/interfaces): определения TypeScript интерфейсов
+	- [src/utils/](mdc:backend/backend/src/utils): вспомогательные утилиты
+	- [src/http/](mdc:backend/backend/src/http): HTTP-модуль с [fetcher](mdc:backend/backend/src/http/fetcher.ts)
+- Папка [public/](mdc:backend/backend/public): статические ресурсы (изображения, спрайты,
+  favicon)
+- Папка [.cursor/rules/](mdc:backend/backend/.cursor/rules): файлы правил для Cursor
+- Папка [.vscode/](mdc:backend/backend/.vscode): настройки редактора и дебаггера

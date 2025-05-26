@@ -75,29 +75,6 @@ alwaysApply: true
 - Для слайдеров используй библиотеку swiper
 - Для форм используй библиотеку react-hook-form
 
-# Структура проекта
-- Корневая директория:
-	- [package.json](mdc:package.json), [package-lock.json](mdc:package-lock.json)
-	- [tsconfig.json](mdc:tsconfig.json), [next.config.js](mdc:next.config.js)
-	- [next-env.d.ts](mdc:next-env.d.ts), [env.d.ts.ts](mdc:env.d.ts.ts)
-	- [.eslintrc.json](mdc:.eslintrc.json)
-- Папка [src/](mdc:src):
-	- [src/app/](mdc:src/app): директория Next.js App Router с маршрутами и
-	  серверными/клиентскими компонентами
-	- [src/components/](mdc:src/components): переиспользуемые UI-компоненты с
-	  модулями SCSS
-	- [src/ui/](mdc:src/ui): базовые утилитарные UI-компоненты с
-	  модулями SCSS
-	- [src/styles/](mdc:src/styles): глобальные SCSS-файлы
-	- [src/fonts/](mdc:src/fonts): шрифты проекта
-	- [src/interfaces/](mdc:src/interfaces): определения TypeScript интерфейсов
-	- [src/utils/](mdc:src/utils): вспомогательные утилиты
-	- [src/http/](mdc:src/http): HTTP-модуль с [fetcher](mdc:src/http/fetcher.ts)
-- Папка [public/](mdc:public): статические ресурсы (изображения, спрайты,
-  favicon)
-- Папка [.cursor/rules/](mdc:.cursor/rules): файлы правил для Cursor
-- Папка [.vscode/](mdc:.vscode): настройки редактора и дебаггера
-
 # Структура компонентов
 - В директориях src/components и src/ui всегда должна быть папка с двумя файлами: "index.tsx" и "com.module.scss"
 - Если компоненты относятся к одной функциональности, используйте вложенность папок (например, src/components/catalog/product/index.tsx)
