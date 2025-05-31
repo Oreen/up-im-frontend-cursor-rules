@@ -10,8 +10,8 @@ alwaysApply: false
 const { dict } = useLangContext("<имя компонента с маленькой буквы>")
 
 - Добавить если нет в словари новую секцию <имя компонента с маленькой буквы>:
-  - [ru.json](mdc:frontend/frontend/frontend/frontend/src/dictionaries/ru.json)
-  - [en.json](mdc:frontend/frontend/frontend/frontend/src/dictionaries/en.json)
+  - [ru.json](mdc:frontend/frontend/frontend/frontend/frontend/src/dictionaries/ru.json)
+  - [en.json](mdc:frontend/frontend/frontend/frontend/frontend/src/dictionaries/en.json)
 
 - Добавить переводы в оба словаря:
   - @ru.json
@@ -33,3 +33,5 @@ const { dict } = useLangContext("<имя компонента с маленьк�
 
 - Если перевод отсутствует в одном из файлов, при сборке или проверке линтером/TypeScript возникнет ошибка:
   Property 'ключПеревода' does not exist on type...
+
+- компонент который использует хук useLangContext должен иметь на первой строке файла компонента директиву "use client"
