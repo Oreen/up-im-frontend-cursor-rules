@@ -10,8 +10,8 @@ alwaysApply: false
 const { dict } = useLangContext("<имя компонента с маленькой буквы>")
 
 - Добавить если нет в словари новую секцию <имя компонента с маленькой буквы>:
-  - [ru.json](mdc:frontend/frontend/frontend/frontend/frontend/src/dictionaries/ru.json)
-  - [en.json](mdc:frontend/frontend/frontend/frontend/frontend/src/dictionaries/en.json)
+  - [ru.json](mdc:frontend/src/dictionaries/ru.json)
+  - [en.json](mdc:frontend/src/dictionaries/en.json)
 
 - Добавить переводы в оба словаря:
   - @ru.json
