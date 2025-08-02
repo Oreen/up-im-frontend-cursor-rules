@@ -3,7 +3,7 @@ description:
 globs: 
 alwaysApply: true
 ---
-# Структура проекта
+# Структура frontend
 - Корневая директория:
 	- [package.json](mdc:frontend/package.json), [package-lock.json](mdc:frontend/package-lock.json)
 	- [tsconfig.json](mdc:frontend/tsconfig.json), [next.config.js](mdc:frontend/next.config.js)
